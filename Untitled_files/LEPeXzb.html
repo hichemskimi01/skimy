@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://cdpn.io/Skimy213/fullpage/LEPeXzb?anon=true&view=fullpage -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+
+
+
+    <script src="./authorizeDataCapture-f2b6b96db4c0d98e6f6c.js.download"></script>
+
+  
+
+  <title>Untitled</title>
+
+    <link rel="canonical" href="https://codepen.io/Skimy213/pen/LEPeXzb">
+  
+  
+  
+  
+<style>
+/* إعدادات عامة */
+body {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    background: #001f00;
+    color: #00ff88;
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* تأثير شاشة الهاكر */
+.hacker-effect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle, #003300, #001100);
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.hacker-effect::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(transparent, rgba(0, 255, 0, 0.2) 2px, transparent 4px);
+    animation: hacker-scroll 5s linear infinite;
+}
+
+@keyframes hacker-scroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+/* الهيدر */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #00ff88;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
+}
+
+header h1 span {
+    color: #00ff44;
+    text-shadow: 0 0 10px #00ff44;
+}
+
+/* أقسام الموقع */
+section {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #00ff88;
+    border: 1px solid #00ff44;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 255, 0, 0.1) 50%, transparent);
+    animation: glitch 2s infinite;
+    z-index: -1;
+}
+
+@keyframes glitch {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+}
+
+/* روابط السوشيال ميديا */
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #003300;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #00ff88;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.2);
+}
+
+.social-btn img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.social-btn:hover {
+    background: #006600;
+    transform: scale(1.1);
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #00ff88;
+    margin-top: 20px;
+    border-top: 1px solid #00ff44;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HICHEM-SKIMI</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+    <div class="hacker-effect"></div> <!-- تأثير شاشة الهاكر -->
+    <header>
+        <div class="container">
+            <h1>HOLLA AMIGO, WSMI <span>HICHEM-SKIMI</span></h1>
+            <p>WEBSITE DEVELOPER | HACKER HAHAH | PSYCHOLOGY | SUBERSCURTY</p>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h2>HOW IAM?</h2>
+            <p>Bon, ismi hichem w madam jit lhna bayna taerfni. Saha fi omri 19 hh w nskn fla cité chikh.  
+               Endi mani skills kima ndevlopi l website, w social engineering, w hacker black hat (bsah mchi hacker w kima thb afhmha hh).</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Moi sur whatsApp ida htajt haja sahby! </h2>
+            <p><strong>WhatsApp:</strong> 0782675085</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/15pEBXVcJr/?mibextid=LQQJ4d" target="_blank" class="social-btn">
+                    <img src="./facebook.png" alt="Facebook"> Facebook
+                </a>
+                <a href="https://x.com/hicheeeem01?s=21" target="_blank" class="social-btn">
+                   <img src="./twitter.png" alt="Twitter"> Twitter
+                </a>
+                <a href="https://www.instagram.com/skimyy.213?igsh=MWNsczZlaXI4bTB5&amp;utm_source=qr" target="_blank" class="social-btn">
+                    <img src="./instagram-new.png" alt="Instagram"> Instagram
+                </a>
+                <a href="https://linkedin.com/" target="_blank" class="social-btn">
+                    <img src="./linkedin.png" alt="LinkedIn"> LinkedIn
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 HICHEM. جميع الحقوق محفوظة.</p>
+    </footer>
+
+
+  
+  
+  
+
+
+
+</body></html>
